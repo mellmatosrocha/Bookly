@@ -1,168 +1,165 @@
 @charset "UTF-8";
-body{
-    background: URL();
-    font-family: 'Playfair Display', regular;
+
+/* CONFIGURAÇÕES GERAIS */
+body {
     background-color: #FFF8E9;
-    font-family: 'Playfair Display', regular;
-    
-}
-h1, h2, h3 {
-    font-family: 'Playfair Display', regular;
-}
-
-/*quadradinhos principal*/
-.card{ 
-    background-color: #F5E4E8;
-    width: 85%;
-    padding: 25px;
-    margin: 30px auto;
-    border-radius: 25px;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.5s ease;
-}
-
-.card h2 {
-    color: #9E4A68;
-    text-align: center;
-    font-size: 30px;
-    
-}
-.card p {
-    color: #030000;
-    line-height: 1.6;
-
-}
-.card:hover { 
-    transform: scale(1.03);
-    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.13)
-}
-h1, h2, h3 {
-    font-family: 'Playfair Display', regular;
-}
-/*logo*/
-header#inicio .logo h1 {
-    font-size: 70px;
+    font-family: 'Playfair Display', serif;
     margin: 0;
 }
-header#inicio .logo p {
-    font-size: 20px;
-    color: #9E4A68;
+
+/* CABEÇALHO */
+header#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 4%;
+    border-bottom: solid 1px #B36F87;
+}
+
+/* LOGOTIPO */
+.logo{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.logo h1 {
+    font-size: 500%;
+    font-family: 'Playfair Display', serif;
+    color: #B36F87;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+/* FRASE ABAIXO DO LOGOTIPO */
+.logo p {
+    font-size: 110%;
+    color: #B36F87;
+    margin: 0;
+    padding-left: 26px;
+    text-align: left;
+    
+}
+
+/* MENU */
+nav#menu ol {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+/* BOTÕES DO MENU */
+nav#menu li {
+    background-color: #B36F87;
+    border-radius: 12px;
+    padding: 12px 16px;
+    transition: 0.3s;
+}
+
+/* ESCRITA DO MENU */
+nav#menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+
+/* EFEITO HOVER */
+nav#menu li:hover {
+    background-color: #E8A9BC;
+    transform: scale(1.05);
+}
+
+nav#menu li:hover a {
+    color: #713047;
+}
+nav#menu {
+    transform: translateY(-12px);
+}
+
+/* CORPO PRINCIPAL */
+article#corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 40px 20px;
+}
+
+/* CARTÕES */
+.card {
+    background-color: #B36F87;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+/* TÍTULOS DOS CARTÕES */
+.card h2 {
+    color: #FFD1E0;
+    font-size: 180%;
     margin-top: 0;
 }
-header#inicio{
-    background-color: rgba(255, 255, 255, 0.37);
-    padding-bottom:1%;
-    border-bottom: solid 1px rgb(249, 191, 241);
+
+/* TEXTOS DOS CARTÕES */
+.card p {
+    color: #000000;
+    font-size: 110%;
+    line-height: 1.7;
+    text-align: justify;
+    width: 90%;
+    margin: 5px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
-header#inicio h1{
-   font-size: 450%;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   margin-left:5%;
-   padding-top:2%;
-   text-transform: uppercase;
-   color:rgb(236, 182, 225);
+
+/* EFEITO HOVER */
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
-nav#menu li{
-    display: inline-block;
-    
-} 
-nav#menu a{
-    display: inline-block;
-    background-color: rgb(236, 182, 225);
-    color: #654B4C;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
-    margin: 5px;
-}
-nav#menu a:hover {
-    background-color: #B36F87;
-    color: white;
-}
-nav#menu{
-    text-transform:uppercase;
-    list-style: none;
-	position: absolute;
-	top: 0px;
-	right: 60px;
-    margin-top:2%;
-}
-/*footer*/
-footer{
-    border-top: 2px solid #B36F87;
+
+/* RODAPÉ */
+footer#contato {
     text-align: center;
     padding: 30px 20px;
-    margin-top: 50px;
-    background-color: #FFF8E3;
-    }
-footer h2{
-    color:#B36F87;
-    font-size: 30px;
-    
-}
-footer p{
-    color:#654B4C;
-    font-size: 14px;
-    margin: 8px;
-}
-footer h3{
     color: #B36F87;
-    font-size: 22px;
+    border-top: 1px solid #B36F87;
+    margin-top: 30px;
 }
 
-
-/*vsofia*/
-
-body{
-    background: URL();
-}
-nav#menu a{
-    text-decoration: none;
-    color: rgb(87, 87, 87);
-}
-header#inicio{
-    background-color: rgba(255, 255, 255, 0.37);
-    padding-bottom:1%;
-    border-bottom: solid 1px rgb(249, 191, 241);
-}
-header#inicio h1{
-   font-size: 450%;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   margin-left:5%;
-   padding-top:2%;
-   text-transform: uppercase;
-   color:rgb(236, 182, 225);
-}
-nav#menu li{
-    display:inline-block;
-    background-color: rgb(236, 182, 225);
-    border-radius:20px;
-    padding:10px;
-    margin:5px;
-    text-decoration: none;
-}
-nav#menu{
-    text-transform:uppercase;
-    list-style: none;
-	position: absolute;
-	top: 0px;
-	right: 60px;
-    margin-top:2%;
-}
-div.conteudo p{
-    display: inline-block;
-    vertical-align: top;
-    width: 48%;
-    font-size: 120%;
-    position: relative;
-}
-article#corpo h2{
+/* NOME BOOKLY */
+footer#contato h2 {
     font-size: 250%;
-    text-align: center;
-    color: rgb(236, 182, 225);
+    color: #B36F87;
+    margin-bottom: 10px;
 }
 
+/* LINHA DIVISÓRIA */
+footer#contato hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #B36F87;
+    margin: 15px auto;
+}
+
+/* TÍTULO CONTATO */
+footer#contato h3 {
+    color: #B36F87;
+    font-size: 150%;
+}
+
+/* INFORMAÇÕES DE CONTATO */
+footer#contato p {
+    color: #B36F87;
+    margin: 8px;
+    font-size: 100%;
+}
 
 
 
