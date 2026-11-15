@@ -17,11 +17,12 @@ header#inicio {
 }
 
 /* LOGOTIPO */
-.logo{
+.logo {
     margin: 0;
     padding: 0;
     text-align: left;
 }
+
 .logo h1 {
     font-size: 500%;
     font-family: 'Playfair Display', serif;
@@ -38,7 +39,7 @@ header#inicio {
     margin: 0;
     padding-left: 26px;
     text-align: left;
-    
+
 }
 
 /* MENU */
@@ -75,6 +76,7 @@ nav#menu li:hover {
 nav#menu li:hover a {
     color: #713047;
 }
+
 nav#menu {
     transform: translateY(-12px);
 }
@@ -164,68 +166,238 @@ footer#contato p {
 
 
 /*resenhas*/
-div.resenha h3{
+div.resenha h3 {
     font-size: 200%;
     text-align: center;
-    color: rgb(236, 182, 225);
+    color: #B36F87;
 }
 
-div{
+div {
     padding-top: 4%;
     padding-bottom: 4%;
-
 }
-div p, div img{
+
+div p,
+div img {
     display: inline-block;
     vertical-align: top;
     width: 60%;
     font-size: 120%;
     position: relative;
-    text-align: justify; 
+    text-align: justify;
 }
-div img{
-    position:absolute;
+
+div img {
+    position: absolute;
     width: 14%;
-    left: 10%;
+    left: 18%;
+    border-radius: 2%;
 }
-div p{
+div p {
     right: 5%;
     width: 60%;
     font-size: 120%;
     padding-left: 38%;
 }
-/*Amor e gelato*/
-div.amoregelato img{
-    top:68.5%
-}
 
+/*Amor e gelato*/
+div.amoregelato img {
+    top: 83%
+}
+div.amoregelato{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.amoregelato:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*A seleção*/
-div.aselecao img{
-    top:134%;
+div.aselecao img {
+    top: 156%;
+}
+div.aselecao{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.aselecao:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 /*Melhor do que nos filmes*/
-div.melhorfilmes img{
-    top:200%;
+div.melhorfilmes img {
+    top: 228%;
 }
-
+div.melhorfilmes{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.melhorfilmes:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*Patinando no Amor*/
-div.patinando img{
-    top:220%;
+div.patinando img {
+    top: 294%;
+}
+div.patinando{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.patinando:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 /*Eu e esse meu Coração*/
-
-
+div.essemeucoracao img {
+    top: 363%;
+}
+div.essemeucoracao{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.essemeucoracao:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*Divinos Rivasis*/
-
-
+div.dr img {
+    top: 427%;
+}
+div.dr{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.dr:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*A hipótese do amor*/
-
-
+div.ahipotesedoamor img {
+    top: 500%;
+}
+div.ahipotesedoamor{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.ahipotesodoamor:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*É assim que acaba*/
-
-
+div.eassimqueacaba img {
+    top: 563%;
+}
+div.eassimqueacaba{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.eassimqueacaba:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*A razão do Amor*/
-
-
+div.arazaodoamor img {
+    top: 625%;
+}
+div.arazaodoamor{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.arazaodoamor:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
 /*Todas as suas imperfeições*/
+div.todasassuasimperfeicoes img {
+    top: 690%;
+}
+div.todasassuasimperfeicoes{
+    background-color: #f8efd2;
+    width: 82%;
+    padding: 20px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s;
+    box-sizing: border-box;
+    z-index:2;
+    margin-top:4%;
+    margin-bottom:4%;
+    margin-left:10%;
+}
+div.todasassuasimperfeicoes:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
