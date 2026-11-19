@@ -113,10 +113,10 @@ article#corpo {
     color: #000000;
     font-size: 110%;
     line-height: 1.7;
-    text-align: justify;
+    text-align: center;
     width: 90%;
     margin: 5px 0;
-    padding: 0 10px;
+    padding-left:8%;
     box-sizing: border-box;
 }
 
@@ -209,7 +209,7 @@ div p {
 
 /*AMOR E GELATO*/
 div.amoregelato img {
-    top: 83%
+    top: 85%
 }
 div.amoregelato{
     background-color: #f8efd2;
@@ -219,7 +219,6 @@ div.amoregelato{
     text-align: center;
     transition: 0.4s;
     box-sizing: border-box;
-    z-index:2;
     margin-top:4%;
     margin-bottom:4%;
     margin-left:10%;
@@ -230,8 +229,7 @@ div.amoregelato:hover{
 
 /*A SELEÇÃO*/
 div.aselecao img {
-    top: 156%;
-    z-index: 10;
+    top: 160%;
 }
 div.aselecao{
     background-color: #f8efd2;
@@ -241,7 +239,6 @@ div.aselecao{
     text-align: center;
     transition: 0.4s;
     box-sizing: border-box;
-    z-index:2;
     margin-top:4%;
     margin-bottom:4%;
     margin-left:10%;
@@ -252,7 +249,7 @@ div.aselecao:hover{
 
 /*MELHOR DO QUE NOS FILMES*/
 div.melhorfilmes img {
-    top: 228%;
+    top: 230%;
 }
 div.melhorfilmes{
     background-color: #f8efd2;
@@ -273,7 +270,7 @@ div.melhorfilmes:hover{
 
 /*PATINANDO NO AMOR*/
 div.patinando img {
-    top: 294%;
+    top: 299%;
 }
 div.patinando{
     background-color: #f8efd2;
@@ -294,7 +291,7 @@ div.patinando:hover{
 
 /*EU E ESSE MEU CORAÇÃO*/
 div.essemeucoracao img {
-    top: 363%;
+    top: 367%;
 }
 div.essemeucoracao{
     background-color: #f8efd2;
@@ -315,7 +312,7 @@ div.essemeucoracao:hover{
 
 /*DIVINOS RIVAIS*/
 div.dr img {
-    top: 427%;
+    top: 430%;
 }
 div.dr{
     background-color: #f8efd2;
@@ -336,7 +333,7 @@ div.dr:hover{
 
 /*A HIPÓTESE DO AMOR*/
 div.ahipotesedoamor img {
-    top: 500%;
+    top: 505%;
 }
 div.ahipotesedoamor{
     background-color: #f8efd2;
@@ -357,7 +354,7 @@ div.ahipotesodoamor:hover{
 
 /*É ASSIM QUE ACABA*/
 div.eassimqueacaba img {
-    top: 563%;
+    top: 567.5%;
 }
 div.eassimqueacaba{
     background-color: #f8efd2;
@@ -377,7 +374,7 @@ div.eassimqueacaba:hover{
 }
 /*A RAZÃO DO AMOR*/
 div.arazaodoamor img {
-    top: 625%;
+    top: 629%;
 }
 div.arazaodoamor{
     background-color: #f8efd2;
@@ -398,7 +395,7 @@ div.arazaodoamor:hover{
 
 /*TODAS AS SUAS IMPERFEIÇÕES*/
 div.todasassuasimperfeicoes img {
-    top: 690%;
+    top: 695%;
 }
 div.todasassuasimperfeicoes{
     background-color: #f8efd2;
